@@ -1,0 +1,126 @@
+/*
+* Mizuxe- a Book Theme
+* Designer: Abdul Hadi
+* Tools: HTML, CSS, Bootstrap4
+* Github: https://github.com/abdulhadicse/
+* LinkedIn: https://www.linkedin.com/in/abdulhadicse/ 
+*/
+
+body{
+    background: #252525;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*Menu CSS*/
+.nav_title{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+#myNav a{
+    font-size: 22px;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: .9;
+}
+
+/*Header CSS*/
+
+#home{
+    background-image: url(../img/mount.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
+    overflow-x: hidden;
+    
+}
+
+.box_sec{
+    background: #fff;
+}
+
+.header_sec{
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 500px;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.bgbook{
+    background: #F8F9FA;
+}
+.meet{
+    background: #fff;
+}
+
+.subscribe .btn-color{
+    background: #3292a6;
+    color: aliceblue;
+}
+
+.box_sec .bg-color-card{
+    background: #3292a6;
+    color: aliceblue;
+}
+
+.meet h1, .bgbook h1{
+    color: #3292a6;
+}
+
+.contact{
+    background: #F8F9FA;
+}
+
+.contact h1{
+    color: #3292a6;
+}
+.icon{
+    font-size: 30px;
+    color: #3292a6;
+}
+
+.meet .authors .card-body img{
+    margin-top: -60px;
+}
+
+.meet .authors .card:hover{
+    background: #3292a6;
+    color: aliceblue;
+}
+
+.meet .authors .card:hover .icon{
+    color: aliceblue;
+}
+
+.footer_sec{
+    background: #3292a6;
+    color: antiquewhite;
+}
+
+.contact .btn-submit{
+    background: #3292a6;
+    color: antiquewhite;
+}
+
+/*responsive */
+
+@media (max-width: 575px){
+    .header_sec h1{
+        font-size: 50px;
+    }
+    
+    .bookreview h1, .authors h1, .contact h1{
+        font-size: 40px;
+    }
+    
+    .contact img{
+        display: none;
+    }
+}
+
+
